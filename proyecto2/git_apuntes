@@ -1,0 +1,54 @@
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+git init (una sola vez)
+git status (estado de los archivos dentro de una repo local)
+
+git add [nombre.extension] -> stage (archivos que git tiene en cuenta 
+para modificaciones) | git add. (todos los archivos)
+
+modificar algun archivo.html
+
+git commit -m "Comienzo de proyecto"
+
+git log 
+
+git diff
+
+git checkout -> retrocede
+
+git add index.html
+
+git commit -m "se trabajo sobre el header dentro de mi index.html"
+
+git log --oneline
+
+git reset  --hard 29fdec | --soft
+
+git branch (ver todas las ramas)
+
+git checkout -b (nombreRama) -> crea y nos situa en una rama
+
+git log --graph (grafo)
+
+git checkout (nombre de rama)
+
+git merge (otra rama)
+
+git branch --d (rama a borrar)
+
+git clone https://xxxxxxx(uRl remoto)
+
+git remote -v
+
+git push origin (rama)
+
+git fetch traer el contenido todas las ramas
+git push subir contenido
+git pull traer contenido actualizar solo la rama local en la que estoy situado
+
+git remote add origin https://github.com/xxx
+
+git push -u origin (rama)
+
+
+https://github.com/settings/tokens personal token clasic
